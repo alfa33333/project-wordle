@@ -56,8 +56,8 @@ Here's a quick screen recording of the expected result:
 - When the form is submitted:
   - [x] The entered value should be logged to the console (for now).
   - [x] The input should be reset to an empty string.
-- **The user's input should be converted to ALL UPPERCASE.** No lower-case letters allowed.
-- The input should have a minimum and maximum length of 5.
+- [x] **The user's input should be converted to ALL UPPERCASE.** No lower-case letters allowed.
+- [x] The input should have a minimum and maximum length of 5.
   - **NOTE:** The `minLength` validator is a bit funky; you may wish to use the `pattern` attribute instead. This is discussed in more detail on the [Solution page](https://courses.joshwcomeau.com/joy-of-react/project-wordle/06-solution#an-alternative-to-minlength).
 
 ## Exercise 2: Keeping track of guesses
@@ -81,9 +81,9 @@ And here's an example of the expected DOM structure:
 
 **Acceptance Criteria:**
 
-- A new component should be created, to render previous guesses.
-- When the user submits their guess, that value should be rendered within this new component.
-- There should be no key warnings in the console!
+- [x] A new component should be created, to render previous guesses.
+- [x] When the user submits their guess, that value should be rendered within this new component.
+- [x] There should be no key warnings in the console!
 
 ## Exercise 3: Guess slots
 
