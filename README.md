@@ -151,8 +151,8 @@ There are two things that should help you tackle this exercise:
 - [x] Create a new `Guess` component. 6 instances should be rendered at all times, no matter how many guesses have been submitted.
 - [x] The `Guess` component should render 5 spans, each with the class of `cell`.
 - [x] Each cell should contain a letter, if the `Guess` instance has been given a value. If not, the cell should be blank.
-- Use the `NUM_OF_GUESSES_ALLOWED` constant, when needed.
-- No `key` warnings in the console.
+- [x] Use the `NUM_OF_GUESSES_ALLOWED` constant, when needed.
+- [x] No `key` warnings in the console.
 
 ## Exercise 4: Game logic
 
@@ -205,9 +205,9 @@ Your task is to use this function to validate the user's guesses, and apply the 
 
 **Acceptance Criteria:**
 
-- Import the `checkGuess` function from `/src/game-helpers.js`, and use it to validate each of the user's guesses
-- When rendering the letters in the `Guess` component, apply the letter's `status` to the `cell` element.
-- "Empty" guess slots should have the same markup as before: `<span class="cell"></span>`.
+- [x] Import the `checkGuess` function from `/src/game-helpers.js`, and use it to validate each of the user's guesses
+- [x] When rendering the letters in the `Guess` component, apply the letter's `status` to the `cell` element.
+- [x] "Empty" guess slots should have the same markup as before: `<span class="cell"></span>`.
 
 ## Exercise 5: winning and losing
 
